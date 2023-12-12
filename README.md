@@ -1,10 +1,10 @@
-## plot_record.py
+## record_stream.py
 
 Record data through the command line
 
 ```
-# Record up to 1000 packets
-python3 plot_record.py /dev/ttyACM0 -r 1000
+# Record up to 3000 packets
+python3 record_stream.py -r 3000 /dev/ttyACM0
 # Press CTRL+C to exit
 ```
 
